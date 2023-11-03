@@ -103,7 +103,7 @@ func runGraphicalUi() (err error) {
 
 	// Quit button
 	quitAction := walk.NewAction()
-	if err = quitAction.SetText("&Quit"); err != nil {
+	if err = quitAction.SetText("&Exit"); err != nil {
 		return
 	}
 	quitAction.Triggered().Attach(func() { dlg.Close() })

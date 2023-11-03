@@ -193,7 +193,7 @@ func runConsoleShell() {
 		}
 
 		// "quit" => exit shell
-		if strings.EqualFold(strings.TrimSpace(input), "quit") {
+		if strings.EqualFold(strings.TrimSpace(input), "exit") {
 			break
 		}
 
